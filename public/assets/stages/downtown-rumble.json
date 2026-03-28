@@ -1,0 +1,18 @@
+{
+  "name": "Downtown Rumble",
+  "background": "downtown-rumble",
+  "platforms": [
+    { "id": "ground",      "x": 190, "y": 580, "w": 900, "type": "solid" },
+    { "id": "roof-left",   "x": 0,   "y": 260, "w": 200, "type": "solid" },
+    { "id": "roof-right",  "x": 1080,"y": 220, "w": 200, "type": "solid" },
+    { "id": "mid-left",    "x": 300, "y": 440, "w": 110, "type": "passthrough" },
+    { "id": "mid-right",   "x": 870, "y": 420, "w": 100, "type": "passthrough" },
+    { "id": "top-center",  "x": 575, "y": 300, "w": 130, "type": "passthrough" }
+  ],
+  "blastZones": { "left": -200, "right": 1480, "top": -200, "bottom": 820 },
+  "weaponSpawns": [{ "x": 640, "y": 270 }],
+  "spawnPoints": [
+    { "player": 1, "x": 350, "y": 540 },
+    { "player": 2, "x": 930, "y": 540 }
+  ]
+}

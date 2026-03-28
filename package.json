@@ -1,0 +1,31 @@
+{
+  "name": "bit-warriors",
+  "version": "1.0.0",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "cap:sync": "cap sync",
+    "cap:ios": "cap open ios",
+    "cap:android": "cap open android"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^4.1.2",
+    "typescript": "^6.0.2",
+    "vite": "^6.4.1",
+    "vitest": "^4.1.2"
+  }
+}

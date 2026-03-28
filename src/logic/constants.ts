@@ -1,0 +1,11 @@
+export const GAME_WIDTH = 1280;
+export const GAME_HEIGHT = 720;
+export const GRAVITY = 800;
+export const PLATFORM_HEIGHT = 16;
+export const STARTING_STOCKS = 3;
+export const WEAPON_RESPAWN_MS = 10_000;
+export const WEAPON_DROP_CHANCE = 0.3;
+export const HITSTUN_BASE_MS = 250;
+export const LAUNCHED_RECOVERY_SPEED = 120; // px/s — speed at which launched state ends
+export const RESPAWN_DELAY_MS = 2_000;
+export const PASSTHROUGH_GRACE_MS = 300; // window after drop-through where platform is ignored
